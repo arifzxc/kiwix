@@ -73,6 +73,35 @@ Untuk download file copy terbaru saat ini dalam Bahasa Indonesia yang versi leng
 wget https://download.kiwix.org/zim/wikipedia/wikipedia_id_all_maxi_2022-05.zim
 wget https://download.kiwix.org/zim/wikipedia/wikipedia_id_all_nopic_2022-05.zim
 ```
+
+# MENGUBAH KECEPATAN UPLOAD, DLL. UNTUK WEB SERVER APACHE2 AGAR LEBIH STABIL
+Silahkan sesuaikan dengan versi php yang sudah diinstall<br>
+untuk cek versi php, bisa menggunakan perintah:
+```
+php -v
+php --version
+````
+edit menggunakan perintah:
+```
+sudo vi /etc/php/7.3/apache2/php.ini
+sudo vi /etc/php/7.4/apache2/php.ini
+```
+atau
+```
+sudo nano /etc/php/7.3/apache2/php.ini
+sudo nano /etc/php/7.4/apache2/php.ini
+```
+
+cari text dan ubah sesuai dengan contoh dibawah ini:
+```
+upload_max_filesize = 100M
+post_max_size = 48M
+memory_limit = 512M
+max_execution_time = 600
+max_input_vars = 3000
+max_input_time = 1000
+```
+
 # PROSES PENGINSTALAN
 
 Masuk ke directory yang tadi digunakan untuk menyimpan file kiwix:
@@ -151,7 +180,7 @@ Ip address yang didapat oleh device adalah: <b>192.168.1.73</b> maka untuk menga
 192.168.1.73:8181
 ```
 
-<br><br>   
+<br>
 <b>Selesai, semoga bermanfaat tutorial installasi wikipedia offline by kiwix, yang sudah saya bikin.<br>
 Mohon maaf jika ada kata-kata yang kurang nyambung atau lainnya.<br>
 Terima Kasih...</b>
