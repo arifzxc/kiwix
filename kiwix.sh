@@ -1,6 +1,6 @@
 # Masuk sebagai superuser (root) terlebih dahulu, agar mempermudah proses installasi. 
 
-apt install apache2 php php-xmlrpc php-mysql php-gd php-cli php-curl -y
+sudo apt install apache2 php php-xmlrpc php-mysql php-gd php-cli php-curl -y
 
 cd /usr/local/src/
 wget https://download.kiwix.org/release/kiwix-tools/kiwix-tools_linux-armhf.tar.gz
