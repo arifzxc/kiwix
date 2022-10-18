@@ -4,7 +4,7 @@
 Kiwix memungkinkan kita untuk menjalankan server Wikipedia secara OFFLINE. Kiwix tersedia untuk di download secara gratis, termasuk copy wikipedia terbaru dari berbagai bahasa.
 
 
-# SAYA MEMPUNYAI 2 PILIHAN PROSES INSTAlLASI
+# SAYA MEMPUNYAI 2 PILIHAN PROSES INSTALLASI
 
 <b><h2> 1. Installasi dengan shell script (.sh) installasi jadi lebih mudah dan auto selesai dengan sendirinya. </b></h2>
 
