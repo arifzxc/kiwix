@@ -6,7 +6,7 @@ Kiwix memungkinkan kita untuk menjalankan server Wikipedia secara OFFLINE. Kiwix
 
 # SAYA MEMPUNYAI 2 PILIHAN PROSES INSTAlLASI
 
-<b><h2> 1. Installasi dengan bash shell (.sh) installasi jadi lebih mudah dan auto selesai dengan sendirinya. </b></h2>
+<b><h2> 1. Installasi dengan shell script (.sh) installasi jadi lebih mudah dan auto selesai dengan sendirinya. </b></h2>
 
 <b>Disarankan masuk sebagai superuser (root) terlebih dahulu, agar mempermudah ketika proses penginstalan.
 
@@ -30,7 +30,7 @@ masuk ke dalam directory terlebih dahulu :
 ```
 cd kiwix/
 ```
-Menjalankan bash shell:
+Menjalankan shell script:
 ```
 sh kiwix.sh
 ```
